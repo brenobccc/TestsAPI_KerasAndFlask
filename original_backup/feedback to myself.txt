@@ -1,0 +1,14 @@
+Após várias modificações, conseguir rodar.
+tinha um problema com a versão do graph, então tentei este link:
+https://stackoverflow.com/questions/55496289/how-to-fix-attributeerror-module-tensorflow-has-no-attribute-get-default-gr
+
+Após encontrei um outro problema, em relação a instanciar o modelo e após chamar o graph.
+então modifiquei novamente, e aparentemente foi permito rodar 50% da aplicação do modo original.
+link: https://stackoverflow.com/questions/64326568/calling-model-predict-in-graph-mode-is-not-supported-when-the-model-instance
+
+Percebi que se eu botar uma palavra como "ablo", dá certo.
+mas se eu colocar outras maiores, fica meio improvável dar certo.
+
+cole este código no brownser e verifique o retorno:
+http://127.0.0.1:5000?word=ablo&model=FF
+
